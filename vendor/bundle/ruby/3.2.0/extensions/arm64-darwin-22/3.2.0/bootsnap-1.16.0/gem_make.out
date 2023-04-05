@@ -1,0 +1,18 @@
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/y.wada/.rbenv/versions/3.2.0/bin/ruby -I /Users/y.wada/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230405-32403-y7q27h sitelibdir\=./.gem.20230405-32403-y7q27h clean
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230405-32403-y7q27h sitelibdir\=./.gem.20230405-32403-y7q27h
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230405-32403-y7q27h sitelibdir\=./.gem.20230405-32403-y7q27h install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230405-32403-y7q27h/bootsnap
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230405-32403-y7q27h sitelibdir\=./.gem.20230405-32403-y7q27h clean

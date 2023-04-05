@@ -1,0 +1,18 @@
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/y.wada/.rbenv/versions/3.2.0/bin/ruby -I /Users/y.wada/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230405-31699-ujfvti sitelibdir\=./.gem.20230405-31699-ujfvti clean
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230405-31699-ujfvti sitelibdir\=./.gem.20230405-31699-ujfvti
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230405-31699-ujfvti sitelibdir\=./.gem.20230405-31699-ujfvti install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230405-31699-ujfvti
+
+current directory: /Users/y.wada/Desktop/dev/rails_recipe/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230405-31699-ujfvti sitelibdir\=./.gem.20230405-31699-ujfvti clean
