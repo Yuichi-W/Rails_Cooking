@@ -79,3 +79,5 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 #　CSSフレームワークであるBulmaをRailsアプリケーションに統合するためのGem
 gem "bulma-rails"
+
+gem "activesupport", "~> 7.0.4.3"

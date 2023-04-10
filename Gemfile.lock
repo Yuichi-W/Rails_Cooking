@@ -268,6 +268,7 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  activesupport (~> 7.0.4.3)
   bootsnap
   bulma-rails
   capybara
