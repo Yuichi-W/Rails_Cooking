@@ -6,4 +6,6 @@ class User < ApplicationRecord
   # 画像アップロードのためgemを使用してattachmentメソッド使用
   # profile_imageカラムに画像をアップロードするための設定
   attachment :profile_image
+  # ユーザ削除時に紐づくレシピ削除
+  has_many :recipes, dependent: :destroy
 end
