@@ -46,12 +46,12 @@
           <p class="panel-heading">
             By <%= @recipe.user.username %>
           </p>
-          <div class="panel-block">
+          <div class="panel-block" style="background-color: #fff;">
             <p class="control">
               <%= @recipe.user.profile %>
             </p>
           </div>
-          <%= link_to user_path(@recipe.user), class: "panel-block" do %>
+          <%= link_to user_path(@recipe.user), class: "panel-block", style: "background-color: #fff;" do %>
             <span class="panel-icon">
               <i class="fas fa-user" aria-hidden="true"></i>
             </span>

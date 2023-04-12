@@ -36,11 +36,11 @@
 
       <% if user_signed_in? %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-item">
-            <%# <%= link_to "Recipe List", recipes_path, class: "navbar-item button is-warning is-light" %>
+          <div class="navbar-item" style="font-family: cursive;">
+            <%= link_to "Recipe List", recipes_path, class: "navbar-item button is-warning is-light" %>
           </div>
-          <div class="navbar-item">
-            <%# <%= link_to "Recipe Post", new_recipe_path, class: "navbar-item button is-warning is-light" %>
+          <div class="navbar-item" style="font-family: cursive;">
+            <%= link_to "Recipe Post", new_recipe_path, class: "navbar-item button is-warning is-light" %>
           </div>
 
           <div class="navbar-end">
@@ -62,7 +62,7 @@
       <% else %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-item">
-            <%# <%= link_to "レシピ一覧", recipes_path, class: "navbar-item button is-warning is-light" %> 
+            <%= link_to "Recipe List", recipes_path, class: "navbar-item button is-warning is-light" %> 
           </div>
           <div class="navbar-item">
             <%= link_to "Recipegramer List", users_path, class: "navbar-item button is-warning is-light" %> 

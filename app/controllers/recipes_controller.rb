@@ -21,7 +21,7 @@ class RecipesController < ApplicationController
   end
 
   def edit
-    @recipe + Recipe.find(params[:id])
+    @recipe = Recipe.find(params[:id])
     return unless @recipe.user != current_user
 
     redirect_to recipes_path, alert: '不正なアクセスです。'
