@@ -12,12 +12,12 @@
 
   <body>
     <% if flash[:notice] %>
-      <div class="notification is-info">
+      <div class="notification is-info" style="margin-bottom: 0;">
         <p class="notice"><%= notice %></p>
       </div>
     <% end %>
     <% if flash[:alert] %>
-      <div class="notification is-danger">
+      <div class="notification is-danger" style="margin-bottom: 0;">
         <p class="alert"><%= alert %></p>
       </div>
     <% end %>
